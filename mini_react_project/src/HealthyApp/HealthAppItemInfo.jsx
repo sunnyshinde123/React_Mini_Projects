@@ -1,10 +1,12 @@
+import style from "./HealthyAppItemInfo.module.css"
+
 export default function HealthyAppItemInfo({ItemData, handleOnDeleteItem}){
   return (
     <>
-    <div className="ItemBox row col-10 offset-2 mt-3"> 
+    <div className={`${style["ItemBox"]} row col-12 mt-3`}> 
       {ItemData.map((items)=> {
         return (
-          <div className="card me-3 mt-3" key={items.id} style={{width:"18rem"}}>
+          <div className={`${style['card-box']} card mt-3`} key={items.id} style={{width:"18rem"}}>
             <img src="https://img.freepik.com/premium-photo/indian-hindu-veg-thali-also-known-as-food-platter-is-complete-lunch-dinner-meal-closeup-selective-focus_466689-9137.jpg?w=2000" className="card-img-top" alt="..."/>
             <div className="card-body">
               <h2 className="card-title">{items.item}</h2>

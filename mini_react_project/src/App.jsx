@@ -11,6 +11,7 @@ import Password from './Password/Password';
 import HealthyAppSearchBox from './HealthyApp/HealthAppSearchBox';
 import HealthyAppItemInfo from './HealthyApp/HealthAppItemInfo';
 import HealthyApp from './HealthyApp/HealthyApp';
+import CalculatorApp from './CalculatorApp/CalculatorApp';
 import './App.css';
 
 function App() {

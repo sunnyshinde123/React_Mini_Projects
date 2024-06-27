@@ -1,0 +1,9 @@
+.ItemBox{
+  height: 100% !important;
+  display: flex;
+  flex-wrap: wrap !important;
+}
+
+.card-box{
+  margin: 0rem 0.5rem !important;
+}
